@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480D6EF925DD57D200E1192A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D6EF825DD57D200E1192A /* StartViewController.swift */; };
+		480D6F0125DD73BC00E1192A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 480D6F0025DD73BC00E1192A /* GoogleService-Info.plist */; };
+		4839CC6425DD155E00A4DD2E /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */; };
+		4839CC6825DD157500A4DD2E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839CC6725DD157500A4DD2E /* SignUpViewController.swift */; };
+		485D572725DDB96300501F9C /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D572625DDB96300501F9C /* StartController.swift */; };
+		485D572C25DEC19F00501F9C /* PasswordResetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D572B25DEC19F00501F9C /* PasswordResetter.swift */; };
+		4870D3E725DDA9AD00DB8787 /* SignUpper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D3E625DDA9AD00DB8787 /* SignUpper.swift */; };
+		4870D3ED25DDB0E500DB8787 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */; };
+		4876947225DC3D4B00B2804A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876947125DC3D4B00B2804A /* AppDelegate.swift */; };
+		4876947425DC3D4B00B2804A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876947325DC3D4B00B2804A /* SceneDelegate.swift */; };
+		4876947925DC3D4B00B2804A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876947725DC3D4B00B2804A /* Main.storyboard */; };
+		4876947B25DC3D5300B2804A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4876947A25DC3D5300B2804A /* Assets.xcassets */; };
+		4876947E25DC3D5300B2804A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876947C25DC3D5300B2804A /* LaunchScreen.storyboard */; };
+		52957C2EEEB77DEE4CF9280D /* Pods_MyMentalHealthApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA70203BBAB0C1D4172097 /* Pods_MyMentalHealthApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480D6EF825DD57D200E1192A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = ../StartViewController.swift; sourceTree = "<group>"; };
+		480D6F0025DD73BC00E1192A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		4839CC6725DD157500A4DD2E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		485D572625DDB96300501F9C /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		485D572B25DEC19F00501F9C /* PasswordResetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetter.swift; sourceTree = "<group>"; };
+		4870D3E625DDA9AD00DB8787 /* SignUpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpper.swift; sourceTree = "<group>"; };
+		4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4876946E25DC3D4B00B2804A /* MyMentalHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMentalHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4876947125DC3D4B00B2804A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4876947325DC3D4B00B2804A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4876947825DC3D4B00B2804A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4876947A25DC3D5300B2804A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4876947D25DC3D5300B2804A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4876947F25DC3D5300B2804A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CA70203BBAB0C1D4172097 /* Pods_MyMentalHealthApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMentalHealthApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87B8FD46ECEB636F00093CE /* Pods-MyMentalHealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMentalHealthApp.debug.xcconfig"; path = "Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A5C092ECFC569D688754C2 /* Pods-MyMentalHealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMentalHealthApp.release.xcconfig"; path = "Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4876946B25DC3D4B00B2804A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52957C2EEEB77DEE4CF9280D /* Pods_MyMentalHealthApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB1F605AC988F06F66C66DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CA70203BBAB0C1D4172097 /* Pods_MyMentalHealthApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24FDEDF555C9EF6B39AE4991 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A87B8FD46ECEB636F00093CE /* Pods-MyMentalHealthApp.debug.xcconfig */,
+				F1A5C092ECFC569D688754C2 /* Pods-MyMentalHealthApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4839CC6625DD156200A4DD2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4839CC6725DD157500A4DD2E /* SignUpViewController.swift */,
+				4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */,
+				480D6EF825DD57D200E1192A /* StartViewController.swift */,
+				4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4870D3E925DDA9F200DB8787 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4870D3E625DDA9AD00DB8787 /* SignUpper.swift */,
+				485D572625DDB96300501F9C /* StartController.swift */,
+				485D572B25DEC19F00501F9C /* PasswordResetter.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4876946525DC3D4B00B2804A = {
+			isa = PBXGroup;
+			children = (
+				4876947025DC3D4B00B2804A /* MyMentalHealthApp */,
+				4876946F25DC3D4B00B2804A /* Products */,
+				24FDEDF555C9EF6B39AE4991 /* Pods */,
+				0EB1F605AC988F06F66C66DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4876946F25DC3D4B00B2804A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4876946E25DC3D4B00B2804A /* MyMentalHealthApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4876947025DC3D4B00B2804A /* MyMentalHealthApp */ = {
+			isa = PBXGroup;
+			children = (
+				4870D3E925DDA9F200DB8787 /* Controllers */,
+				4876947125DC3D4B00B2804A /* AppDelegate.swift */,
+				4876947325DC3D4B00B2804A /* SceneDelegate.swift */,
+				4839CC6625DD156200A4DD2E /* ViewControllers */,
+				4876947725DC3D4B00B2804A /* Main.storyboard */,
+				4876947A25DC3D5300B2804A /* Assets.xcassets */,
+				4876947C25DC3D5300B2804A /* LaunchScreen.storyboard */,
+				4876947F25DC3D5300B2804A /* Info.plist */,
+				480D6F0025DD73BC00E1192A /* GoogleService-Info.plist */,
+			);
+			path = MyMentalHealthApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4876946D25DC3D4B00B2804A /* MyMentalHealthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4876948225DC3D5300B2804A /* Build configuration list for PBXNativeTarget "MyMentalHealthApp" */;
+			buildPhases = (
+				03323F83610E256518317232 /* [CP] Check Pods Manifest.lock */,
+				4876946A25DC3D4B00B2804A /* Sources */,
+				4876946B25DC3D4B00B2804A /* Frameworks */,
+				4876946C25DC3D4B00B2804A /* Resources */,
+				35FA1D72519DAD185E502D51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMentalHealthApp;
+			productName = MyMentalHealthApp;
+			productReference = 4876946E25DC3D4B00B2804A /* MyMentalHealthApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4876946625DC3D4B00B2804A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4876946D25DC3D4B00B2804A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 4876946925DC3D4B00B2804A /* Build configuration list for PBXProject "MyMentalHealthApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4876946525DC3D4B00B2804A;
+			productRefGroup = 4876946F25DC3D4B00B2804A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4876946D25DC3D4B00B2804A /* MyMentalHealthApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4876946C25DC3D4B00B2804A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876947E25DC3D5300B2804A /* LaunchScreen.storyboard in Resources */,
+				480D6F0125DD73BC00E1192A /* GoogleService-Info.plist in Resources */,
+				4876947B25DC3D5300B2804A /* Assets.xcassets in Resources */,
+				4876947925DC3D4B00B2804A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03323F83610E256518317232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMentalHealthApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35FA1D72519DAD185E502D51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4876946A25DC3D4B00B2804A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480D6EF925DD57D200E1192A /* StartViewController.swift in Sources */,
+				4876947225DC3D4B00B2804A /* AppDelegate.swift in Sources */,
+				485D572725DDB96300501F9C /* StartController.swift in Sources */,
+				4839CC6425DD155E00A4DD2E /* ForgetPasswordViewController.swift in Sources */,
+				4876947425DC3D4B00B2804A /* SceneDelegate.swift in Sources */,
+				485D572C25DEC19F00501F9C /* PasswordResetter.swift in Sources */,
+				4839CC6825DD157500A4DD2E /* SignUpViewController.swift in Sources */,
+				4870D3ED25DDB0E500DB8787 /* HomeViewController.swift in Sources */,
+				4870D3E725DDA9AD00DB8787 /* SignUpper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4876947725DC3D4B00B2804A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4876947825DC3D4B00B2804A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4876947C25DC3D5300B2804A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4876947D25DC3D5300B2804A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4876948025DC3D5300B2804A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4876948125DC3D5300B2804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4876948325DC3D5300B2804A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87B8FD46ECEB636F00093CE /* Pods-MyMentalHealthApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMentalHealthApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.MyMentalHealthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4876948425DC3D5300B2804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A5C092ECFC569D688754C2 /* Pods-MyMentalHealthApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMentalHealthApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.MyMentalHealthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4876946925DC3D4B00B2804A /* Build configuration list for PBXProject "MyMentalHealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876948025DC3D5300B2804A /* Debug */,
+				4876948125DC3D5300B2804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4876948225DC3D5300B2804A /* Build configuration list for PBXNativeTarget "MyMentalHealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876948325DC3D5300B2804A /* Debug */,
+				4876948425DC3D5300B2804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4876946625DC3D4B00B2804A /* Project object */;
+}
