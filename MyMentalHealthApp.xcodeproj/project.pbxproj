@@ -15,11 +15,14 @@
 		485D572C25DEC19F00501F9C /* PasswordResetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D572B25DEC19F00501F9C /* PasswordResetter.swift */; };
 		4870D3E725DDA9AD00DB8787 /* SignUpper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D3E625DDA9AD00DB8787 /* SignUpper.swift */; };
 		4870D3ED25DDB0E500DB8787 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */; };
+		4871326125DEED3A00E293B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871326025DEED3A00E293B2 /* MapViewController.swift */; };
+		4871326425DEED8700E293B2 /* FacilitiesFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871326325DEED8700E293B2 /* FacilitiesFinder.swift */; };
 		4876947225DC3D4B00B2804A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876947125DC3D4B00B2804A /* AppDelegate.swift */; };
 		4876947425DC3D4B00B2804A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876947325DC3D4B00B2804A /* SceneDelegate.swift */; };
 		4876947925DC3D4B00B2804A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876947725DC3D4B00B2804A /* Main.storyboard */; };
 		4876947B25DC3D5300B2804A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4876947A25DC3D5300B2804A /* Assets.xcassets */; };
 		4876947E25DC3D5300B2804A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876947C25DC3D5300B2804A /* LaunchScreen.storyboard */; };
+		487FA61825DF317900338A0F /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA61725DF317900338A0F /* Injector.swift */; };
 		52957C2EEEB77DEE4CF9280D /* Pods_MyMentalHealthApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA70203BBAB0C1D4172097 /* Pods_MyMentalHealthApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,8 @@
 		485D572B25DEC19F00501F9C /* PasswordResetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetter.swift; sourceTree = "<group>"; };
 		4870D3E625DDA9AD00DB8787 /* SignUpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpper.swift; sourceTree = "<group>"; };
 		4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4871326025DEED3A00E293B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4871326325DEED8700E293B2 /* FacilitiesFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesFinder.swift; sourceTree = "<group>"; };
 		4876946E25DC3D4B00B2804A /* MyMentalHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMentalHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4876947125DC3D4B00B2804A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4876947325DC3D4B00B2804A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		4876947A25DC3D5300B2804A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4876947D25DC3D5300B2804A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4876947F25DC3D5300B2804A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487FA61725DF317900338A0F /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
 		64CA70203BBAB0C1D4172097 /* Pods_MyMentalHealthApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMentalHealthApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87B8FD46ECEB636F00093CE /* Pods-MyMentalHealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMentalHealthApp.debug.xcconfig"; path = "Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F1A5C092ECFC569D688754C2 /* Pods-MyMentalHealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMentalHealthApp.release.xcconfig"; path = "Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 				4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */,
 				480D6EF825DD57D200E1192A /* StartViewController.swift */,
 				4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */,
+				4871326025DEED3A00E293B2 /* MapViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 				4870D3E625DDA9AD00DB8787 /* SignUpper.swift */,
 				485D572625DDB96300501F9C /* StartController.swift */,
 				485D572B25DEC19F00501F9C /* PasswordResetter.swift */,
+				4871326325DEED8700E293B2 /* FacilitiesFinder.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 			children = (
 				4870D3E925DDA9F200DB8787 /* Controllers */,
 				4876947125DC3D4B00B2804A /* AppDelegate.swift */,
+				487FA61725DF317900338A0F /* Injector.swift */,
 				4876947325DC3D4B00B2804A /* SceneDelegate.swift */,
 				4839CC6625DD156200A4DD2E /* ViewControllers */,
 				4876947725DC3D4B00B2804A /* Main.storyboard */,
@@ -140,6 +149,7 @@
 				4876946B25DC3D4B00B2804A /* Frameworks */,
 				4876946C25DC3D4B00B2804A /* Resources */,
 				35FA1D72519DAD185E502D51 /* [CP] Embed Pods Frameworks */,
+				131B5F0A508D92EDB25B21D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +229,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		131B5F0A508D92EDB25B21D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMentalHealthApp/Pods-MyMentalHealthApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		35FA1D72519DAD185E502D51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,8 +273,11 @@
 				480D6EF925DD57D200E1192A /* StartViewController.swift in Sources */,
 				4876947225DC3D4B00B2804A /* AppDelegate.swift in Sources */,
 				485D572725DDB96300501F9C /* StartController.swift in Sources */,
+				4871326125DEED3A00E293B2 /* MapViewController.swift in Sources */,
+				4871326425DEED8700E293B2 /* FacilitiesFinder.swift in Sources */,
 				4839CC6425DD155E00A4DD2E /* ForgetPasswordViewController.swift in Sources */,
 				4876947425DC3D4B00B2804A /* SceneDelegate.swift in Sources */,
+				487FA61825DF317900338A0F /* Injector.swift in Sources */,
 				485D572C25DEC19F00501F9C /* PasswordResetter.swift in Sources */,
 				4839CC6825DD157500A4DD2E /* SignUpViewController.swift in Sources */,
 				4870D3ED25DDB0E500DB8787 /* HomeViewController.swift in Sources */,

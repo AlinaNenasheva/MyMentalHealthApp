@@ -1,5 +1,7 @@
 import UIKit
 import Firebase
+import GoogleMaps
+import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -8,9 +10,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        let startController = StartController()
-        let signUpper = SignUpper()
-        let passwordResetter = PasswordResetter()
+        GMSServices.provideAPIKey("AIzaSyC6p75HXO69_mzOISH3ZB6LEYtOesvZHWg")
+        GMSPlacesClient.provideAPIKey("AIzaSyC6p75HXO69_mzOISH3ZB6LEYtOesvZHWg")
+        let injector = Injector()
         return true
     }
 
