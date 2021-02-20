@@ -4,7 +4,7 @@ import FirebaseAuth
 
 class StartController {
     
-    let startViewController = StartViewController()
+    private let startViewController = StartViewController()
     
     init() {
         startViewController.setLoginButtonHandler(signInUser(_:_:))

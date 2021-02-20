@@ -3,7 +3,7 @@ import FirebaseAuth
 
 class PasswordResetter {
     
-    let forgetPasswordViewController = ForgetPasswordViewController()
+    private let forgetPasswordViewController = ForgetPasswordViewController()
     
     init() {
         forgetPasswordViewController.setSubmitButtonHandler(resetPassword(_:))

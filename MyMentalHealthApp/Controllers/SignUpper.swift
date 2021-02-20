@@ -4,7 +4,7 @@ import Firebase
 
 class SignUpper {
     
-    let signUpViewController = SignUpViewController()
+    private let signUpViewController = SignUpViewController()
     
     init() {
         signUpViewController.setSignUpButtonHandler(signUpUser(_:_:))

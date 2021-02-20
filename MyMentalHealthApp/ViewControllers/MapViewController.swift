@@ -17,12 +17,12 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         CLLocationManager.authorizationStatus() == .authorizedAlways) {
             currentLocation = locationManager.location?.coordinate
         }
-        let camera = GMSCameraPosition.camera(withLatitude: currentLocation?.latitude ?? -33.8, longitude: currentLocation?.longitude ?? 151.20, zoom: 6.0)
+        let camera = GMSCameraPosition.camera(withLatitude: currentLocation?.latitude ?? 53.6, longitude: currentLocation?.longitude ?? 27.3, zoom: 6.0)
         let mapView = GMSMapView.map(withFrame: self.view.frame, camera: camera)
         mapPlaceholderView.addSubview(mapView)
         
         let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: currentLocation?.latitude ?? -33.8, longitude: currentLocation?.longitude ?? 151.20)
+        marker.position = CLLocationCoordinate2D(latitude: currentLocation?.latitude ?? 53.6, longitude: currentLocation?.longitude ?? 27.3)
         marker.title = "Me"
         marker.icon = GMSMarker.markerImage(with: .black)
           marker.map = mapView
