@@ -72,4 +72,7 @@ class SignUpViewController: UIViewController {
         signUpButtonHandler?(emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines), emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines))
     }
     
+    
+    
+    
 }

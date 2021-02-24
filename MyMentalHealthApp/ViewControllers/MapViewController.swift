@@ -5,6 +5,7 @@ import GoogleMaps
 class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapPlaceholderView: UIView!
+
     
     private let locationManager = CLLocationManager()
     var currentLocation: CLLocationCoordinate2D? = nil
@@ -17,13 +18,13 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         CLLocationManager.authorizationStatus() == .authorizedAlways) {
             currentLocation = locationManager.location?.coordinate
         }
-        let camera = GMSCameraPosition.camera(withLatitude: currentLocation?.latitude ?? 53.6, longitude: currentLocation?.longitude ?? 27.3, zoom: 6.0)
+        let camera = GMSCameraPosition.camera(withLatitude: currentLocation?.latitude ?? 53.6, longitude: currentLocation?.longitude ?? 27.3, zoom: 20.0)
         let mapView = GMSMapView.map(withFrame: self.view.frame, camera: camera)
         mapPlaceholderView.addSubview(mapView)
         
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: currentLocation?.latitude ?? 53.6, longitude: currentLocation?.longitude ?? 27.3)
-        marker.title = "Me"
+        marker.title = "You are here"
         marker.icon = GMSMarker.markerImage(with: .black)
           marker.map = mapView
     }

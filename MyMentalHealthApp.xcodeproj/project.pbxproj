@@ -9,8 +9,17 @@
 /* Begin PBXBuildFile section */
 		480D6EF925DD57D200E1192A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D6EF825DD57D200E1192A /* StartViewController.swift */; };
 		480D6F0125DD73BC00E1192A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 480D6F0025DD73BC00E1192A /* GoogleService-Info.plist */; };
+		4825923025E2C1AB00D7E4A1 /* UserHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825922F25E2C1AB00D7E4A1 /* UserHistoryViewController.swift */; };
+		4825923425E3E6A500D7E4A1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825923325E3E6A500D7E4A1 /* AboutViewController.swift */; };
+		4825923725E3F47E00D7E4A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825923625E3F47E00D7E4A1 /* ProfileViewController.swift */; };
 		4839CC6425DD155E00A4DD2E /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */; };
 		4839CC6825DD157500A4DD2E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839CC6725DD157500A4DD2E /* SignUpViewController.swift */; };
+		484C1EAD25E67F39001B192C /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C1EAC25E67F39001B192C /* SurveyViewController.swift */; };
+		484C1EBA25E686BD001B192C /* ScreeningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C1EB925E686BD001B192C /* ScreeningTableViewCell.swift */; };
+		484C1EC125E68896001B192C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C1EC025E68896001B192C /* Profile.swift */; };
+		484C1EC425E688A5001B192C /* Screening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C1EC325E688A5001B192C /* Screening.swift */; };
+		484C1EC825E68E5F001B192C /* PreSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C1EC725E68E5F001B192C /* PreSurveyViewController.swift */; };
+		484C1ECD25E693FE001B192C /* SurveyFiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C1ECC25E693FE001B192C /* SurveyFiller.swift */; };
 		485D572725DDB96300501F9C /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D572625DDB96300501F9C /* StartController.swift */; };
 		485D572C25DEC19F00501F9C /* PasswordResetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D572B25DEC19F00501F9C /* PasswordResetter.swift */; };
 		485E0F8525E02561006F1BD0 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E0F8425E02561006F1BD0 /* SurveyView.swift */; };
@@ -32,11 +41,20 @@
 /* Begin PBXFileReference section */
 		480D6EF825DD57D200E1192A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = ../StartViewController.swift; sourceTree = "<group>"; };
 		480D6F0025DD73BC00E1192A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4825922F25E2C1AB00D7E4A1 /* UserHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHistoryViewController.swift; sourceTree = "<group>"; };
+		4825923325E3E6A500D7E4A1 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4825923625E3F47E00D7E4A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		4839CC6725DD157500A4DD2E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		484C1EAC25E67F39001B192C /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		484C1EB925E686BD001B192C /* ScreeningTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningTableViewCell.swift; sourceTree = "<group>"; };
+		484C1EC025E68896001B192C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		484C1EC325E688A5001B192C /* Screening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening.swift; sourceTree = "<group>"; };
+		484C1EC725E68E5F001B192C /* PreSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreSurveyViewController.swift; sourceTree = "<group>"; };
+		484C1ECC25E693FE001B192C /* SurveyFiller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFiller.swift; sourceTree = "<group>"; };
 		485D572625DDB96300501F9C /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		485D572B25DEC19F00501F9C /* PasswordResetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetter.swift; sourceTree = "<group>"; };
-		485E0F8425E02561006F1BD0 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		485E0F8425E02561006F1BD0 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SurveyView.swift; path = ../Controllers/SurveyView.swift; sourceTree = "<group>"; };
 		485E0F8825E02701006F1BD0 /* SurveyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyView.xib; sourceTree = "<group>"; };
 		4870D3E625DDA9AD00DB8787 /* SignUpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpper.swift; sourceTree = "<group>"; };
 		4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -90,23 +108,39 @@
 			children = (
 				4839CC6725DD157500A4DD2E /* SignUpViewController.swift */,
 				4870D3EC25DDB0E500DB8787 /* HomeViewController.swift */,
+				485E0F8425E02561006F1BD0 /* SurveyView.swift */,
+				485E0F8825E02701006F1BD0 /* SurveyView.xib */,
+				4825922F25E2C1AB00D7E4A1 /* UserHistoryViewController.swift */,
+				484C1EB925E686BD001B192C /* ScreeningTableViewCell.swift */,
+				484C1EC725E68E5F001B192C /* PreSurveyViewController.swift */,
 				480D6EF825DD57D200E1192A /* StartViewController.swift */,
+				484C1EAC25E67F39001B192C /* SurveyViewController.swift */,
+				4825923625E3F47E00D7E4A1 /* ProfileViewController.swift */,
 				4839CC6325DD155E00A4DD2E /* ForgetPasswordViewController.swift */,
 				4871326025DEED3A00E293B2 /* MapViewController.swift */,
+				4825923325E3E6A500D7E4A1 /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		484C1EBF25E68880001B192C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				484C1EC025E68896001B192C /* Profile.swift */,
+				4875BF9825DF9F030095B068 /* FacilityInfo.swift */,
+				484C1EC325E688A5001B192C /* Screening.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4870D3E925DDA9F200DB8787 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				4870D3E625DDA9AD00DB8787 /* SignUpper.swift */,
-				485E0F8425E02561006F1BD0 /* SurveyView.swift */,
-				485E0F8825E02701006F1BD0 /* SurveyView.xib */,
 				485D572625DDB96300501F9C /* StartController.swift */,
 				485D572B25DEC19F00501F9C /* PasswordResetter.swift */,
 				4871326325DEED8700E293B2 /* FacilitiesFinder.swift */,
-				4875BF9825DF9F030095B068 /* FacilityInfo.swift */,
+				484C1ECC25E693FE001B192C /* SurveyFiller.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -132,6 +166,7 @@
 		4876947025DC3D4B00B2804A /* MyMentalHealthApp */ = {
 			isa = PBXGroup;
 			children = (
+				484C1EBF25E68880001B192C /* Model */,
 				4870D3E925DDA9F200DB8787 /* Controllers */,
 				4876947125DC3D4B00B2804A /* AppDelegate.swift */,
 				487FA61725DF317900338A0F /* Injector.swift */,
@@ -286,14 +321,23 @@
 				485D572725DDB96300501F9C /* StartController.swift in Sources */,
 				4871326125DEED3A00E293B2 /* MapViewController.swift in Sources */,
 				4871326425DEED8700E293B2 /* FacilitiesFinder.swift in Sources */,
+				484C1ECD25E693FE001B192C /* SurveyFiller.swift in Sources */,
+				484C1EC425E688A5001B192C /* Screening.swift in Sources */,
 				4875BF9925DF9F030095B068 /* FacilityInfo.swift in Sources */,
+				4825923725E3F47E00D7E4A1 /* ProfileViewController.swift in Sources */,
 				4839CC6425DD155E00A4DD2E /* ForgetPasswordViewController.swift in Sources */,
 				4876947425DC3D4B00B2804A /* SceneDelegate.swift in Sources */,
+				484C1EC125E68896001B192C /* Profile.swift in Sources */,
+				484C1EC825E68E5F001B192C /* PreSurveyViewController.swift in Sources */,
 				487FA61825DF317900338A0F /* Injector.swift in Sources */,
+				484C1EBA25E686BD001B192C /* ScreeningTableViewCell.swift in Sources */,
 				485D572C25DEC19F00501F9C /* PasswordResetter.swift in Sources */,
 				4839CC6825DD157500A4DD2E /* SignUpViewController.swift in Sources */,
 				4870D3ED25DDB0E500DB8787 /* HomeViewController.swift in Sources */,
 				4870D3E725DDA9AD00DB8787 /* SignUpper.swift in Sources */,
+				4825923425E3E6A500D7E4A1 /* AboutViewController.swift in Sources */,
+				484C1EAD25E67F39001B192C /* SurveyViewController.swift in Sources */,
+				4825923025E2C1AB00D7E4A1 /* UserHistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
